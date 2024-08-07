@@ -14,7 +14,7 @@ export default function Page() {
   return (
     <>
       {/* ICONS */}
-      <header className=" h-16 flex md:h-20 lg:h-24  relative">
+      <header className=" h-20 flex md:h-20 lg:h-24  relative">
         <div className="flex-none md:w-40 bg-amber-100 hover:bg-yellow-300"></div>
         <div className="grow flex items-center  justify-end bg-blue-200 hover:bg-blue-400">
           <Link
@@ -102,7 +102,7 @@ export default function Page() {
           <div className="text-gray-300  grow flex items-center  justify-evenly bg-blue-200 hover:bg-blue-400"></div>
           <div className="flex-none md:w-40  bg-amber-100 hover:bg-yellow-300"></div>
           <p
-            className={`${permanent_marker.className} absolute top-4 lg:top-1 right-12 lg:right-16 leading-none text-3xl md:text-5xl lg:text-xxxl pointer-events-none`}
+            className={`${permanent_marker.className} absolute top-4 lg:top-1 right-10 lg:right-16 leading-none text-3xl md:text-5xl lg:text-xxxl pointer-events-none`}
           >
             REACT NATIVE
           </p>
