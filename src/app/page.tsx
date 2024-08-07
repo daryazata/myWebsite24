@@ -18,7 +18,7 @@ export default function Page() {
         <div className="flex-none md:w-40 bg-amber-100 hover:bg-yellow-300"></div>
         <div className="grow flex items-center  justify-end bg-blue-200 hover:bg-blue-400">
           <Link
-            className="mr-6 md:mr-12 lg:mr-16 md:mb-4"
+            className="mr-8 md:mr-12 lg:mr-16 md:mb-4"
             rel="noopener noreferrer"
             target="_blank"
             href="https://www.linkedin.com/in/darya-zata-88554119a/"
@@ -28,11 +28,11 @@ export default function Page() {
 
           <AiOutlineMail
             onClick={() => router.push("mailto:darya.zata@gmail.com")}
-            className="mr-6 md:mr-12 lg:mr-16 text-2xl md:text-3xl lg:text-4xl  md:mb-4 text-gray-600 hover:text-yellow-300 hover:cursor-pointer"
+            className="mr-8 md:mr-12 lg:mr-16 text-2xl md:text-3xl lg:text-4xl  md:mb-4 text-gray-600 hover:text-yellow-300 hover:cursor-pointer"
           />
 
           <Link
-            className="mr-8 md:mr-12 lg:mr-16 md:mb-4"
+            className="mr-10 md:mr-12 lg:mr-16 md:mb-4"
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/daryazata/"
