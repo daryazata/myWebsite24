@@ -27,8 +27,8 @@ export default function Page() {
           </Link>
 
           <AiOutlineMail
-            onClick={() => router.push("mailto:darya.zata@gmail.com")}
-            className="mr-8 md:mr-12 lg:mr-16 text-2xl md:text-3xl lg:text-4xl  md:mb-4 text-gray-600 hover:text-yellow-300 hover:cursor-pointer"
+            onClick={() => router.push("mailto:contact@dazaonline.com")}
+            className="mr-8 md:mr-12 lg:mr-16 text-3xl md:text-3xl lg:text-4xl  md:mb-4 text-gray-600 hover:text-yellow-300 hover:cursor-pointer"
           />
 
           <Link
