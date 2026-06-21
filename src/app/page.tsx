@@ -35,7 +35,7 @@ export default function Page() {
             className="mr-10 md:mr-12 lg:mr-16 md:mb-4"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/daryazata/"
+            href="https://github.com/dazaart/"
           >
             <VscGithubInverted className="text-xl md:text-2xl lg:text-3xl text-gray-600 hover:text-yellow-300 hover:cursor-pointer" />
           </Link>
